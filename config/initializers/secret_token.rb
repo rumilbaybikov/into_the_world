@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-IntoTheWorld::Application.config.secret_token = 'd3b00d9426695909a85d3666291f09f1c789b9f730497842483077961c48f2030ef6f0c134c90b59eaca3f1bd645a65b259be9988fa506753e74ee9cbfd461e0'
+Enki::Application.config.secret_token = '1481948abe0b49729e01200f00033b021cf2e7e1128d37da0cb637c1b661f99cf3bc163c5ba57f164c02254d9255591358c502ddeb1107fe2647af3c5bfa0c37'
