@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-IntoTheWorld::Application.load_tasks
+Enki::Application.load_tasks
