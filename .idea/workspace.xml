@@ -2,6 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1c113d3-1e21-421a-98a3-b134e1044aee" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ckeditor_assets/pictures/1/content_y_ca4e623f.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ckeditor_assets/pictures/1/original_y_ca4e623f.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/ckeditor_assets/pictures/1/thumb_y_ca4e623f.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/tiny_mce/spinner.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/attachments_controller.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/helpers/remote_link_renderer.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/ckeditor/asset.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/ckeditor/attachment_file.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/ckeditor/picture.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/tiny_print.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models/tiny_video.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/attachments/_show_attachment_list.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/initializers/ckeditor.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/initializers/tiny_mce_plus_config.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20120909210629_create_tiny_mce_media.rb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20120910031023_create_ckeditor_assets.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/into_the_world.iml" afterPath="$PROJECT_DIR$/.idea/into_the_world.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/images/line_hor.jpg" afterPath="$PROJECT_DIR$/app/assets/images/line_hor.jpg" />
