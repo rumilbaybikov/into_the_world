@@ -2,41 +2,60 @@
 <html>
 <head>
   <title>IntoTheWorld</title>
-  <%= stylesheet_link_tag    "application", "style", :media => "all" %>
-  <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
+  <%= stylesheet_link_tag "application", "style", :media => "all" %>
+  <%= javascript_include_tag "application" %>
 </head>
-<body>
-<div id="wrap">
-  <div id="header">
-    <div id="menu">
-      <ul>
-        <li><%= link_to "О нас", about_path, :class => "big menu nu" %></li>
-        <li><%= link_to "Услуги", services_path, :class => "big menu nu" %></li>
-        <li><%= link_to "Блог 'Travel Stories'", blog_path, :class => "big menu nu" %></li>
-        <li><%= link_to "Контакты", contacts_path, :class => "big menu nu" %></li>
-        <li><a href="#" class="big menu nu"><strong>Форум</strong></a></li>
-      </ul>
-    </div>
-  </div>
-
-  <div id="top"></div>
-
-
-  <div id="content">
-    <div id="left_content">
-
-    </div>
-    <div id="right_content">
-      <div id="inner_right">
-      <%= yield %>
-      <font class="white">
-        <a href="http://localhost:8080/index.html" class="green u">Home</a> | <a href="#" class="green u">Clover Design</a>  © Copyright 2005. <a href="http://localhost:8080/index-5.html" class="nu">Privacy Policy</a><br>
-        Valid XHTML, CSS.</font>
+<body leftmargin="0" topmargin="0">
+<table width="778" height="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td height="332" valign="top">
+      <div id="header">
+        <table width="100%">
+          <tr>
+            <td align="center">
+              <div class="edge-menu"><%= link_to "О нас", about_path, :class => "circle playButton" %></div>
+            </td>
+            <td align="center">
+              <div class="middle-menu"><%= link_to "Услуги", services_path, :class => "circle playButton" %></div>
+            </td>
+            <td align="center">
+              <div class="center-menu"><%= link_to "<br />Travel Stories".html_safe, blog_path, :class => "circle-long playButton" %></div>
+            </td>
+            <td align="center">
+              <div class="middle-menu"><%= link_to "Контакты", contacts_path, :class => "circle playButton" %></div>
+            </td>
+            <td align="center">
+              <div class="edge-menu"><a href="#" class="circle playButton">Форум</a></div>
+            </td>
+          </tr>
+        </table>
       </div>
-    </div>
-  </div>
-</div>
+    </td>
+  </tr>
+  <tr>
+    <%= yield %>
+  </tr>
+  <tr>
+    <td height="42" valign="bottom" background="images/down.jpg">
+      <table width="750" height="37" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr>
+          <td class="style1 style5">Copyright © 2003 Company Name.<br>
+            All Rights Reserved.
+          </td>
+          <td>
+            <div align="right" class="style6"><a href="terms.htm" class="style6">Terms &amp; Conditions</a><br>
+              <a href="privacy.htm" class="style6">Privacy Policy</a></div>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+<map name="Map">
+  <area shape="rect" coords="15,57,41,80" href="contact.htm">
+  <area shape="rect" coords="14,96,40,121" href="#">
+</map>
 
 </body>
 </html>

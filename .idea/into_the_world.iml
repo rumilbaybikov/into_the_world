@@ -26,7 +26,9 @@
     <orderEntry type="library" scope="PROVIDED" name="activesupport (v3.2.8, RVM: ruby-1.9.2-p320 [into_the_world]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="arel (v3.0.2, RVM: ruby-1.9.2-p320 [into_the_world]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="builder (v3.0.0, RVM: ruby-1.9.2-p320 [into_the_world]) [gem]" level="application" />
-    <orderEntry type="library" scope="PROVIDED" name="bundler (v1.1.5, RVM: ruby-1.9.2-p320 [into_the_world]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bundler (v1.2.0, RVM: ruby-1.9.2-p320 [into_the_world]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="ckeditor (v3.7.1, RVM: ruby-1.9.2-p320 [into_the_world]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="cocaine (v0.3.0, RVM: ruby-1.9.2-p320 [into_the_world]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coderay (v1.0.7, RVM: ruby-1.9.2-p320 [into_the_world]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-rails (v3.2.2, RVM: ruby-1.9.2-p320 [into_the_world]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="coffee-script (v2.2.0, RVM: ruby-1.9.2-p320 [into_the_world]) [gem]" level="application" />
@@ -48,6 +50,8 @@
     <orderEntry type="library" scope="PROVIDED" name="mime-types (v1.19, RVM: ruby-1.9.2-p320 [into_the_world]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="multi_json (v1.3.6, RVM: ruby-1.9.2-p320 [into_the_world]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="open_id_authentication (v1.1.0, RVM: ruby-1.9.2-p320 [into_the_world]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="orm_adapter (v0.4.0, RVM: ruby-1.9.2-p320 [into_the_world]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="paperclip (v3.2.0, RVM: ruby-1.9.2-p320 [into_the_world]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="polyglot (v0.3.3, RVM: ruby-1.9.2-p320 [into_the_world]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack (v1.4.1, RVM: ruby-1.9.2-p320 [into_the_world]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack-cache (v1.2, RVM: ruby-1.9.2-p320 [into_the_world]) [gem]" level="application" />

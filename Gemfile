@@ -59,3 +59,7 @@ gem 'formtastic'
 gem 'will_paginate', '~> 3.0.2'
 gem 'exception_notification', '~> 2.5.2'
 gem 'open_id_authentication'
+
+gem "ckeditor", "3.7.1"
+
+gem "paperclip"
